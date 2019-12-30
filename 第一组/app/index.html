@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>app</title>
+  <script src="https://www.jq22.com/jquery/jquery-3.3.1.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  <script src="https://unpkg.com/swiper/js/swiper.js"> </script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+<script>
+  new Swiper('.swiper-container', {
+    loop: true,
+    autoplay: true,
+    onSlideChangeStart: function (swiper) {
+      console.log(1);
+    }
+  })
+</script>
+
+</html>
